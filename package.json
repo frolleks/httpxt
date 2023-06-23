@@ -10,7 +10,13 @@
   },
   "keywords": [
     "web",
-    "api"
+    "api",
+    "router",
+    "framework",
+    "veloxum",
+    "http",
+    "rest",
+    "restful"
   ],
   "files": [
     "package.json",
