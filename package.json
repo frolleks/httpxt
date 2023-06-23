@@ -17,6 +17,7 @@
   },
   "scripts": {
     "build": "tsup",
+    "prepublish": "pnpm build",
     "lint": "eslint **/*.js"
   },
   "keywords": [
