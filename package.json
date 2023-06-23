@@ -1,6 +1,6 @@
 {
   "name": "httpxt",
-  "version": "0.2.0-dev",
+  "version": "0.2.0-dev.1",
   "description": "A fast web framework.",
   "exports": {
     "./package.json": "./package.json",
