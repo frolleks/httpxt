@@ -6,6 +6,7 @@ export = createApplication;
  * @property {function(string, function(http.IncomingMessage, http.ServerResponse, Object, any):void):void} post - Registers a POST request handler.
  * @property {function(string, function(http.IncomingMessage, http.ServerResponse, Object, any):void):void} put - Registers a PUT request handler.
  * @property {function(string, function(http.IncomingMessage, http.ServerResponse, Object, any):void):void} delete - Registers a DELETE request handler.
+ * @property {function(string, function(http.IncomingMessage, http.ServerResponse, Object, any):void):void} patch - Registers a PATCH request handler.
  * @property {function(number, function():void):http.Server} listen - Starts listening for incoming requests.
  */
 /**
@@ -33,6 +34,10 @@ type App = {
      * - Registers a DELETE request handler.
      */
     delete: (arg0: string, arg1: (arg0: http.IncomingMessage, arg1: http.ServerResponse, arg2: Object, arg3: any) => void) => void;
+    /**
+     * - Registers a PATCH request handler.
+     */
+    patch: (arg0: string, arg1: (arg0: http.IncomingMessage, arg1: http.ServerResponse, arg2: Object, arg3: any) => void) => void;
     /**
      * - Starts listening for incoming requests.
      */
