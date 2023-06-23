@@ -1,0 +1,30 @@
+{
+  "name": "veloxum",
+  "version": "0.0.0-dev",
+  "description": "A fast web framework.",
+  "main": "index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "generate-types": "tsc"
+  },
+  "keywords": [
+    "web",
+    "api"
+  ],
+  "files": [
+    "package.json",
+    "README.md",
+    "index.js",
+    "lib/",
+    "types/"
+  ],
+  "author": "Frolleks",
+  "license": "MIT",
+  "dependencies": {
+    "find-my-way": "^7.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
+  }
+}
