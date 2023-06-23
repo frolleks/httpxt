@@ -1,6 +1,6 @@
 {
   "name": "veloxum",
-  "version": "0.0.0-dev.1",
+  "version": "0.1.0",
   "description": "A fast web framework.",
   "main": "index.js",
   "types": "./types/index.d.ts",
