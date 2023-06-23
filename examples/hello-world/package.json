@@ -7,6 +7,6 @@
     "start": "node ."
   },
   "dependencies": {
-    "veloxum": "0.0.0-dev"
+    "httpxt": "0.1.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "veloxum",
+  "name": "httpxt",
   "version": "0.1.0",
   "description": "A fast web framework.",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "api",
     "router",
     "framework",
-    "veloxum",
+    "httpxt",
     "http",
     "rest",
     "restful"
