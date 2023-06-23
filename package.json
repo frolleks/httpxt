@@ -6,7 +6,7 @@
   "types": "./types/index.d.ts",
   "scripts": {
     "generate-types": "tsc",
-    "lint": "eslint ."
+    "lint": "eslint **/*.js"
   },
   "keywords": [
     "web",
