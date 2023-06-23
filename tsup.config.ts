@@ -6,6 +6,7 @@ export default defineConfig({
   ignoreWatch: ["**/dist", "**/node_modules", "**/.DS_STORE", "**/.git"],
   dts: true,
   splitting: false,
+  bundle: false,
   sourcemap: false,
   clean: true,
 });

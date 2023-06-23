@@ -2,8 +2,6 @@
   "name": "httpxt",
   "version": "0.2.0-dev",
   "description": "A fast web framework.",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
