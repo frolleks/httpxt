@@ -1,6 +1,6 @@
 {
   "name": "httpxt",
-  "version": "0.2.0-dev.6",
+  "version": "0.2.0-dev.7",
   "description": "A fast web framework.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
