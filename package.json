@@ -5,7 +5,8 @@
   "main": "index.js",
   "types": "./types/index.d.ts",
   "scripts": {
-    "generate-types": "tsc"
+    "generate-types": "tsc",
+    "lint": "eslint ."
   },
   "keywords": [
     "web",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.3.1",
+    "eslint": "^8.43.0",
     "typescript": "^5.1.3"
   }
 }
