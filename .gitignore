@@ -1,5 +1,8 @@
 node_modules
 
+# tsup destination folder
+dist
+
 # lockfiles in example folders
 examples/**/package-lock.json
 examples/**/yarn.lock

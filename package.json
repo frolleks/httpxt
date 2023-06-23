@@ -1,11 +1,20 @@
 {
   "name": "httpxt",
-  "version": "0.1.0",
+  "version": "0.2.0-dev",
   "description": "A fast web framework.",
-  "main": "index.js",
-  "types": "./types/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "default": "./dist/index.js",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
-    "generate-types": "tsc",
+    "build": "tsup",
     "lint": "eslint **/*.js"
   },
   "keywords": [
@@ -21,9 +30,7 @@
   "files": [
     "package.json",
     "README.md",
-    "index.js",
-    "lib/",
-    "types/"
+    "dist/"
   ],
   "author": "Frolleks",
   "license": "MIT",
@@ -33,6 +40,7 @@
   "devDependencies": {
     "@types/node": "^20.3.1",
     "eslint": "^8.43.0",
+    "tsup": "^7.0.0",
     "typescript": "^5.1.3"
   }
 }

@@ -4,8 +4,6 @@
     "allowJs": true,
     "checkJs": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
-    "declarationDir": "./types/",
     "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -13,6 +11,6 @@
     "noImplicitAny": true,
     "skipLibCheck": true
   },
-  "include": ["index.js", "lib"],
+  "include": ["index.ts", "lib"],
   "exclude": ["node_modules"]
 }
